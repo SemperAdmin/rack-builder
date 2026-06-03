@@ -1,0 +1,2598 @@
+{
+  "schemaVersion": "1.0.0-draft",
+  "lastUpdated": "2026-06-02",
+  "status": "COMPLETE",
+  "sourceCitations": {
+    "precedence": "MCO 1020.34H \u00a75102 (01 May 2018)",
+    "criteria": "SECNAV M-1650.1 (16 Aug 2019)",
+    "policy": "SECNAVINST 1650.1J (29 May 2019)"
+  },
+  "rackRules": {
+    "rowsDefault": 3,
+    "rowsMaxBeforeDecrease": 4,
+    "topDownOrdering": true,
+    "rightToLeftOrdering": true,
+    "topRowAlignment": "centered_over_row_below",
+    "lowerRowAlignment": "outer_edge_vertical",
+    "incompleteRowPosition": "top",
+    "femaleTwoRibbonRowAllowed": true,
+    "rowSpacing": [
+      "1/8_inch",
+      "flush"
+    ],
+    "source": "MCO 1020.34H \u00a75301 (lines 7912-7980)"
+  },
+  "awards": [
+    {
+      "id": "moh",
+      "precedence": 1,
+      "category": "pmd",
+      "name": "Medal of Honor",
+      "shortName": "MOH",
+      "marineApplicable": true,
+      "issuingAuthority": "President in the name of Congress",
+      "statutoryReference": "10 U.S.C. \u00a78291",
+      "effectiveDate": "1861-04-12",
+      "image": {
+        "ribbon": "/images/ribbons/P01_MOH_Medal_of_Honor.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Conspicuous gallantry and intrepidity at the risk of one's life above and beyond the call of duty, while engaged in action against an enemy of the United States, in military operations against an opposing foreign force, or serving with friendly foreign forces in armed conflict against an opposing armed force.",
+      "evidenceStandard": "No margin of doubt or possibility of error in awarding this honor.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Worn around the neck on dress uniforms. Not mounted nor reproduced in miniature.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.a, line 7213",
+        "criteria": "SECNAV M-1650.1 Tab 1, lines 1513-1604",
+        "wear": "MCO 1020.34H \u00a75202.1, line 7626"
+      }
+    },
+    {
+      "id": "navy_cross",
+      "precedence": 2,
+      "category": "pmd",
+      "name": "Navy Cross",
+      "shortName": "NX",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "statutoryReference": "10 U.S.C. \u00a78293",
+      "image": {
+        "ribbon": "/images/ribbons/P02_NX_Navy_Cross.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Extraordinary heroism in action against an enemy of the United States while engaged in military operations involving conflict with an opposing foreign force, or while serving with friendly foreign forces engaged in armed conflict against an opposing armed force in which the United States is not a belligerent party.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star (silver replaces 5 gold)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.b, line 7214",
+        "criteria": "SECNAV M-1650.1 Tab 2, lines 1605-1670",
+        "devices": "SECNAV M-1650.1 line 1659"
+      }
+    },
+    {
+      "id": "ddsm",
+      "precedence": 3,
+      "category": "pmd",
+      "name": "Defense Distinguished Service Medal",
+      "shortName": "DDSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of Defense",
+      "image": {
+        "ribbon": "/images/ribbons/P03_DDSM_Defense_Distinguished_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Exceptionally distinguished performance of duty contributing to national security or defense of the United States. Awarded to senior officers in positions of unique and great responsibility.",
+      "devices": {
+        "authorized": [
+          "oak_leaf_bronze",
+          "oak_leaf_silver"
+        ],
+        "subsequentAwardMarker": "Bronze oak leaf cluster (DoD policy)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.c, line 7215",
+        "criteria": "DoDM 1348.33-V3"
+      }
+    },
+    {
+      "id": "dsm_navy",
+      "precedence": 4,
+      "category": "pmd",
+      "name": "Distinguished Service Medal (Navy)",
+      "shortName": "DSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "statutoryReference": "10 U.S.C. \u00a78294",
+      "image": {
+        "ribbon": "/images/ribbons/P04_DSM_Distinguished_Service_Medal_(Navy).png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Exceptionally meritorious service to the United States in a duty of great responsibility.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16",
+          "c_device"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star",
+        "cDeviceContext": "Authorized when service occurred under combat conditions per Tab 15 Table 6"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.d, line 7216",
+        "criteria": "SECNAV M-1650.1 Tab 3, lines 1671-1751",
+        "cDevice": "SECNAV M-1650.1 Tab 15 Table 6, line 3047"
+      }
+    },
+    {
+      "id": "silver_star",
+      "precedence": 5,
+      "category": "pmd",
+      "name": "Silver Star Medal",
+      "shortName": "SS",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "statutoryReference": "10 U.S.C. \u00a78296",
+      "image": {
+        "ribbon": "/images/ribbons/P05_SS_Silver_Star_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Gallantry in action against an enemy of the United States, against opposing foreign forces, or with friendly foreign forces in armed conflict. The required gallantry is of a lesser degree than that required for the Navy Cross but must be performed with marked distinction.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.e, line 7217",
+        "criteria": "SECNAV M-1650.1 Tab 4, lines 1752-1823"
+      }
+    },
+    {
+      "id": "dssm",
+      "precedence": 6,
+      "category": "pmd",
+      "name": "Defense Superior Service Medal",
+      "shortName": "DSSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of Defense",
+      "image": {
+        "ribbon": "/images/ribbons/P06_DSSM_Defense_Superior_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Superior meritorious service in a position of significant responsibility while serving in a joint activity.",
+      "devices": {
+        "authorized": [
+          "oak_leaf_bronze",
+          "oak_leaf_silver"
+        ],
+        "subsequentAwardMarker": "Bronze oak leaf cluster"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.f, line 7223"
+      }
+    },
+    {
+      "id": "lom",
+      "precedence": 7,
+      "category": "pmd",
+      "name": "Legion of Merit",
+      "shortName": "LOM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy or higher per degree",
+      "statutoryReference": "10 U.S.C. \u00a71121",
+      "image": {
+        "ribbon": "/images/ribbons/P07_LOM_Legion_of_Merit.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Exceptionally meritorious conduct in the performance of outstanding services and achievements. For Service Members of friendly foreign nations, awarded in four degrees: Chief Commander, Commander, Officer, Legionnaire.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16",
+          "c_device",
+          "r_device"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star (Marine subsequent awards). DoD policy may apply oak leaf cluster for some cases.",
+        "cDeviceContext": "Authorized when service occurred under combat conditions per Tab 15 Table 6",
+        "rDeviceContext": "Authorized for impact awards with remote effect on combat operations per Tab 16 Table 7"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.g, line 7224",
+        "criteria": "SECNAV M-1650.1 Tab 5, lines 1869-1914",
+        "devices": "SECNAV M-1650.1 lines 1880-1893",
+        "cDevice": "SECNAV M-1650.1 Tab 15 Table 6, line 3048",
+        "rDevice": "SECNAV M-1650.1 Tab 16 Table 7, line 3138"
+      }
+    },
+    {
+      "id": "dfc",
+      "precedence": 8,
+      "category": "pmd",
+      "name": "Distinguished Flying Cross",
+      "shortName": "DFC",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "statutoryReference": "10 U.S.C. \u00a78294",
+      "image": {
+        "ribbon": "/images/ribbons/P08_DFC_Distinguished_Flying_Cross.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Heroism or extraordinary achievement while participating in aerial flight.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16",
+          "v_device",
+          "c_device"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star",
+        "valorContext": "V device mandatory when awarded for valor in combat per Tab 13 line 2883",
+        "cDeviceContext": "C device authorized for meritorious achievement under combat conditions per Tab 15 Table 6"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.h, line 7225",
+        "criteria": "SECNAV M-1650.1 Tab 6, lines 1915-1985",
+        "vDevice": "SECNAV M-1650.1 Tab 13 Table 4, line 2839",
+        "cDevice": "SECNAV M-1650.1 Tab 15 Table 6, line 3049"
+      }
+    },
+    {
+      "id": "nmcm",
+      "precedence": 9,
+      "category": "pmd",
+      "name": "Navy and Marine Corps Medal",
+      "shortName": "NMCM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "image": {
+        "ribbon": "/images/ribbons/P09_NMCM_Navy_and_Marine_Corps_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Heroism not involving actual conflict with an enemy. The act must reflect great credit upon the individual and the Naval Service.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.i, line 7226",
+        "criteria": "SECNAV M-1650.1 Tab 7"
+      }
+    },
+    {
+      "id": "bsm",
+      "precedence": 10,
+      "category": "pmd",
+      "name": "Bronze Star Medal",
+      "shortName": "BSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "image": {
+        "ribbon": "/images/ribbons/P10_BSM_Bronze_Star_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Heroic or meritorious achievement or service, not involving aerial flight, in connection with military operations against an enemy of the United States. Awarded to personnel serving in any capacity with the Armed Forces of the United States.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16",
+          "v_device"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star",
+        "valorContext": "V device mandatory when awarded for valor per Tab 13 line 2883",
+        "cDeviceNotAuthorized": "C device not authorized on BSM per Tab 15 paragraph (4) line 3096. BSM is inherently a combat award."
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.j, line 7227",
+        "criteria": "SECNAV M-1650.1 Tab 8, lines 2083-2230",
+        "vDevice": "SECNAV M-1650.1 Tab 13 Table 4, line 2840",
+        "cDeviceExclusion": "SECNAV M-1650.1 Tab 15 line 3096"
+      }
+    },
+    {
+      "id": "purple_heart",
+      "precedence": 11,
+      "category": "pmd",
+      "name": "Purple Heart Medal",
+      "shortName": "PH",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "image": {
+        "ribbon": "/images/ribbons/P11_PH_Purple_Heart_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to any member of the Armed Forces who, while serving with the U.S. Armed Forces, has been wounded or killed by enemy action. The wound must require treatment by a medical officer.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star"
+      },
+      "wearNotes": "Foreign personnel not eligible (M-1650.1 line 11152).",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.k, line 7228",
+        "criteria": "SECNAV M-1650.1 Appendix 2B (line 2852)"
+      }
+    },
+    {
+      "id": "dmsm",
+      "precedence": 12,
+      "category": "pmd",
+      "name": "Defense Meritorious Service Medal",
+      "shortName": "DMSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of Defense",
+      "image": {
+        "ribbon": "/images/ribbons/P12_DMSM_Defense_Meritorious_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Non-combat meritorious achievement or service while serving in a joint activity.",
+      "devices": {
+        "authorized": [
+          "oak_leaf_bronze",
+          "oak_leaf_silver",
+          "c_device",
+          "r_device"
+        ],
+        "subsequentAwardMarker": "Bronze oak leaf cluster"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.l, line 7229"
+      }
+    },
+    {
+      "id": "msm",
+      "precedence": 13,
+      "category": "pmd",
+      "name": "Meritorious Service Medal",
+      "shortName": "MSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "image": {
+        "ribbon": "/images/ribbons/P13_MSM_Meritorious_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Outstanding meritorious achievement or service to the United States. Awarded primarily in a non-combat area for the same level of service that the BSM is awarded in a combat area.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16",
+          "r_device"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star",
+        "rDeviceContext": "R device authorized per Tab 16 Table 7",
+        "cDeviceNotAuthorized": "C device not authorized on MSM per Tab 15 paragraph (5) line 3104. MSM is awarded for service without exposure to hostile action."
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.m, line 7230",
+        "criteria": "SECNAV M-1650.1 Tab 9, lines 2231-2294",
+        "rDevice": "SECNAV M-1650.1 Tab 16 Table 7, line 3139",
+        "cDeviceExclusion": "SECNAV M-1650.1 Tab 15 line 3104"
+      }
+    },
+    {
+      "id": "air_medal",
+      "precedence": 14,
+      "category": "pmd",
+      "name": "Air Medal",
+      "shortName": "AM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "image": {
+        "ribbon": "/images/ribbons/P14_AM_Air_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Single act of meritorious achievement involving superior airmanship; meritorious service involving aerial flight; or sustained operational activities against an armed enemy.",
+      "devices": {
+        "authorized": [
+          "numeral_gold",
+          "star_gold_5_16",
+          "v_device",
+          "c_device"
+        ],
+        "subsequentAwardMarker": "Gold numeral for strike/flight count or 5/16-inch gold star for individual awards",
+        "complexRule": "Separate Individual, Strike/Flight, and Combat ('C') variants per SECNAV M-1650.1 Tab 10"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.n, line 7231",
+        "criteria": "SECNAV M-1650.1 Tab 10, lines 2295-2602",
+        "numerals": "SECNAV M-1650.1 lines 2372-2373"
+      }
+    },
+    {
+      "id": "jscm",
+      "precedence": 15,
+      "category": "pmd",
+      "name": "Joint Service Commendation Medal",
+      "shortName": "JSCM",
+      "marineApplicable": true,
+      "issuingAuthority": "Joint command",
+      "image": {
+        "ribbon": "/images/ribbons/P15_JSCM_Joint_Service_Commendation_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Meritorious achievement or service while serving in a joint activity.",
+      "devices": {
+        "authorized": [
+          "oak_leaf_bronze",
+          "oak_leaf_silver",
+          "v_device",
+          "c_device",
+          "r_device"
+        ],
+        "subsequentAwardMarker": "Bronze oak leaf cluster"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.o, line 7232"
+      }
+    },
+    {
+      "id": "ncm",
+      "precedence": 16,
+      "category": "pmd",
+      "name": "Navy and Marine Corps Commendation Medal",
+      "shortName": "NCM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy or delegated",
+      "image": {
+        "ribbon": "/images/ribbons/P16_NCM_Navy_and_Marine_Corps_Commendation_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Heroic or meritorious achievement or service. The deeds performed must be over and above those normally expected, sufficient to distinguish the individual above his or her peers.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16",
+          "v_device",
+          "c_device",
+          "r_device"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.p, line 7233",
+        "criteria": "SECNAV M-1650.1 Tab 11, lines 2603-2720"
+      }
+    },
+    {
+      "id": "jsam",
+      "precedence": 17,
+      "category": "pmd",
+      "name": "Joint Service Achievement Medal",
+      "shortName": "JSAM",
+      "marineApplicable": true,
+      "issuingAuthority": "Joint command",
+      "image": {
+        "ribbon": "/images/ribbons/P17_JSAM_Joint_Service_Achievement_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Meritorious achievement or service while serving in a joint activity, in a grade below O-6.",
+      "devices": {
+        "authorized": [
+          "oak_leaf_bronze",
+          "oak_leaf_silver",
+          "c_device",
+          "r_device"
+        ],
+        "subsequentAwardMarker": "Bronze oak leaf cluster"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.q, line 7234"
+      }
+    },
+    {
+      "id": "nam",
+      "precedence": 18,
+      "category": "pmd",
+      "name": "Navy and Marine Corps Achievement Medal",
+      "shortName": "NAM",
+      "marineApplicable": true,
+      "issuingAuthority": "Commanding officer authority per SECNAV M-1650.1",
+      "image": {
+        "ribbon": "/images/ribbons/P18_NAM_Navy_and_Marine_Corps_Achievement_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Professional and/or leadership achievement in a combat or non-combat situation based on sustained performance or specific achievement of a superlative nature.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16",
+          "c_device",
+          "r_device"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star",
+        "cDeviceContext": "C device authorized per Tab 15 Table 6",
+        "rDeviceContext": "R device authorized per Tab 16 Table 7",
+        "vDeviceNotAuthorized": "V device prohibited on NAM since 7 January 2016 per Tab 13 paragraph c(2) line 2901. NAM is not awarded for valor."
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.r, line 7235",
+        "criteria": "SECNAV M-1650.1 Tab 12, lines 2721-2820",
+        "cDevice": "SECNAV M-1650.1 Tab 15 Table 6, line 3053",
+        "rDevice": "SECNAV M-1650.1 Tab 16 Table 7, line 3141",
+        "vDeviceExclusion": "SECNAV M-1650.1 Tab 13 line 2901"
+      }
+    },
+    {
+      "id": "car",
+      "precedence": 19,
+      "category": "pmd",
+      "name": "Combat Action Ribbon",
+      "shortName": "CAR",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy or delegated",
+      "image": {
+        "ribbon": "/images/ribbons/P19_CAR_Combat_Action_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to members of the Naval Service who have actively participated in ground or surface combat. Active participation requires the individual to have been engaged in direct combat with the enemy, under enemy fire, while performing satisfactorily in accordance with the prescribed rules of engagement.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star (second and subsequent designated operations)"
+      },
+      "wearNotes": "No medal authorized. Ribbon only. Foreign personnel not eligible (M-1650.1 line 11152).",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.5.s, line 7236",
+        "criteria": "SECNAV M-1650.1 Appendix 2C (line 2879)",
+        "designatedOperations": "SECNAV M-1650.1 Table 8 (line 2920)"
+      }
+    },
+    {
+      "id": "puc",
+      "precedence": 20,
+      "category": "unit",
+      "name": "Presidential Unit Citation",
+      "shortName": "PUC",
+      "marineApplicable": true,
+      "issuingAuthority": "President of the United States",
+      "image": {
+        "ribbon": "/images/ribbons/P20_PUC_Presidential_Unit_Citation.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to units of the Armed Forces for extraordinary heroism in action against an armed enemy. The unit must display such gallantry, determination, and esprit de corps in accomplishing its mission as would warrant award of a Navy Cross or Distinguished Service Cross to an individual.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star"
+      },
+      "wearNotes": "Worn after all U.S. Personal Decorations. No medal authorized.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.6.a, line 7241",
+        "criteria": "SECNAV M-1650.1 Chapter 3, Appendix 3A Tab 1 (line 6207)"
+      }
+    },
+    {
+      "id": "jmua",
+      "precedence": 21,
+      "category": "unit",
+      "name": "Joint Meritorious Unit Award",
+      "shortName": "JMUA",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of Defense",
+      "image": {
+        "ribbon": "/images/ribbons/P21_JMUA_Joint_Meritorious_Unit_Award.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to joint activities of the Armed Forces of the United States for meritorious service or achievement during combat with an armed enemy or during an extreme emergency.",
+      "devices": {
+        "authorized": [
+          "oak_leaf_bronze",
+          "oak_leaf_silver"
+        ],
+        "subsequentAwardMarker": "Bronze oak leaf cluster"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.6.b, line 7242"
+      }
+    },
+    {
+      "id": "nuc",
+      "precedence": 22,
+      "category": "unit",
+      "name": "Navy Unit Commendation",
+      "shortName": "NUC",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "image": {
+        "ribbon": "/images/ribbons/P22_NUC_Navy_Unit_Commendation.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to units of the Navy and Marine Corps which distinguished themselves by either outstanding heroism in action against the enemy or extremely meritorious service not involving combat. The service or heroism must have been of a magnitude clearly above that required for the MUC.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.6.c, line 7243",
+        "criteria": "SECNAV M-1650.1 Chapter 3, Appendix 3A Tab 2 (line 6268)"
+      }
+    },
+    {
+      "id": "muc",
+      "precedence": 23,
+      "category": "unit",
+      "name": "Meritorious Unit Commendation",
+      "shortName": "MUC",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy or delegated",
+      "image": {
+        "ribbon": "/images/ribbons/P23_MUC_Meritorious_Unit_Commendation.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to units of the Navy and Marine Corps for valorous or meritorious achievement or service in combat or non-combat situations, based on sustained performance or specific achievement of a superlative nature.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.6.d, line 7244",
+        "criteria": "SECNAV M-1650.1 Chapter 3, Appendix 3A Tab 3 (line 6315)"
+      }
+    },
+    {
+      "id": "ner",
+      "precedence": 24,
+      "category": "unit",
+      "name": "Navy 'E' Ribbon",
+      "shortName": "NER",
+      "marineApplicable": true,
+      "issuingAuthority": "Chief of Naval Operations",
+      "image": {
+        "ribbon": "/images/ribbons/P24_NER_Navy_'E'_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to permanently assigned personnel of ships and certain commands that have won the Battle Efficiency Competition.",
+      "devices": {
+        "authorized": [
+          "e_letter"
+        ],
+        "subsequentAwardMarker": "Battle E letter device for subsequent awards"
+      },
+      "marineApplicableNote": "Primarily a Navy award. Marines serving aboard qualifying Navy vessels may earn it.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.6.e, line 7245"
+      }
+    },
+    {
+      "id": "pow_medal",
+      "precedence": 25,
+      "category": "ces",
+      "name": "Prisoner of War Medal",
+      "shortName": "POWM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy",
+      "statutoryReference": "10 U.S.C. \u00a71128",
+      "image": {
+        "ribbon": "/images/ribbons/P25_POWM_Prisoner_of_War_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to any person taken prisoner or held captive while engaged in an action against an enemy of the United States, while engaged in military operations involving conflict with an opposing foreign force, or while serving with friendly forces engaged in armed conflict against an opposing armed force in which the United States is not a belligerent party.",
+      "devices": {
+        "authorized": [
+          "star_gold_5_16",
+          "star_silver_5_16"
+        ],
+        "subsequentAwardMarker": "5/16-inch gold star"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.a, line 7292",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 30"
+      }
+    },
+    {
+      "id": "mcgcm",
+      "precedence": 26,
+      "category": "ces",
+      "name": "Marine Corps Good Conduct Medal",
+      "shortName": "MCGCM",
+      "marineApplicable": true,
+      "issuingAuthority": "Commandant of the Marine Corps (commands with NAM approval authority)",
+      "image": {
+        "ribbon": "/images/ribbons/P26_MCGCM_Marine_Corps_Good_Conduct_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to enlisted Marines for any three years of continuous active service in the Regular or Reserve (on continuous Active Duty or Active Reserve) after 10 December 1945, with no convictions by courts-martial, no NJP, and no lost time by reason of sickness-misconduct or injury-misconduct during the period.",
+      "criteriaFullText": "The MCGCM is restricted to enlisted Marines. Awardees must meet both the period of service and the conduct requirements. Any three (3) years of continuous active service in the Regular or Reserve (on continuous Active Duty or Active Reserve) after 10 December 1945. This may include service in temporary warrant or commissioned status, provided the temporary officer reverts to enlisted status. During the period of service, there must have been no convictions by courts-martial, no Non-Judicial Punishment (NJP) under Article 15 of the Uniform Code of Military Justice, and no lost time by reason of sickness-misconduct or injury-misconduct. Prior to 27 April 1990, no more than one NJP was allowed during the period of service.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.b, line 7293",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 14, lines 8641-8786"
+      }
+    },
+    {
+      "id": "smcrm",
+      "precedence": 27,
+      "category": "ces",
+      "name": "Selected Marine Corps Reserve Medal",
+      "shortName": "SMCRM",
+      "marineApplicable": true,
+      "issuingAuthority": "Commands with NAM approval authority",
+      "image": {
+        "ribbon": "/images/ribbons/P27_SMCRM_Selected_Marine_Corps_Reserve_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to members of the Selected Marine Corps Reserve (SMCR) who, effective 1 January 1996, fulfilled designated service requirements within any three-year period of service in the Marine Corps Reserve. For the period 1 July 1925 through 31 December 1995, a four-year period of service was required.",
+      "criteriaFullText": "Awarded to members of the Selected Marine Corps Reserve (SMCR) who, effective 1 January 1996, fulfilled designated service requirements within any three-year period of service in the Marine Corps Reserve. Attendance with an SMCR unit, including duty in an Individual Mobilization Augmentee (IMA) billet in Training Category A, at three consecutive annual field training periods. Attendance with an SMCR unit, including duty in an IMA billet in Training Category A, 90 percent of all scheduled drills each year for four consecutive years. Enlisted personnel in the rank of corporal (E-4) and below must have obtained a combined average of conduct and proficiency markings of 4.0 or above for the first three-year period. For subsequent three-year periods, enlisted personnel must have obtained a combined average of conduct and proficiency markings of 4.5 or above.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star (silver replaces 5)"
+      },
+      "wearNotes": "Formerly known as the Organized Marine Corps Reserve Medal.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.c, line 7294",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 32, lines 10841-10982"
+      }
+    },
+    {
+      "id": "mcem",
+      "precedence": 28,
+      "category": "ces",
+      "name": "Marine Corps Expeditionary Medal",
+      "shortName": "MCEM",
+      "marineApplicable": true,
+      "issuingAuthority": "SECNAV approves operations; COs with NAM approval authority issue",
+      "statutoryReference": "Marine Corps G.O. No. 33 of 8 May 1919",
+      "image": {
+        "ribbon": "/images/ribbons/P28_MCEM_Marine_Corps_Expeditionary_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Marines who have actually landed on foreign territory and engaged in operations against armed opposition, or operated under circumstances deemed to merit special recognition, and for which no other CE&S medal or ribbon was authorized. May only be awarded if Navy and Marine Corps units were the sole participants in the designated operation.",
+      "criteriaFullText": "Awarded to Marines who have actually landed on foreign territory and engaged in operations against armed opposition, or operated under circumstances deemed to merit special recognition, and for which no other CE&S medal or ribbon was authorized. Only personnel attached to one of the approved units during the eligibility period, and who actually participated in the given operation, are eligible for the MCEM. The MCEM may only be awarded if Navy and Marine Corps units were the sole participants in the designated operation. In cases where an operation involved the participation of units from other branches of the U.S. Armed Forces, the AFEM is the more appropriate award. The MCEM is restricted to Marine Corps personnel. Navy personnel who are assigned to Marine Corps units awarded the MCEM wear the NEM instead of the MCEM.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.d, line 7298",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 13, lines 8553-8633"
+      }
+    },
+    {
+      "id": "china_service",
+      "precedence": 29,
+      "category": "ces",
+      "name": "China Service Medal",
+      "shortName": "CSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P29_CSM_China_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service ashore in China or on board naval vessels operating in support of operations in China during the periods 1937-1939 and 1945-1957. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star for second period of qualifying service"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11893. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.e, line 7299",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11893"
+      }
+    },
+    {
+      "id": "adsm",
+      "precedence": 30,
+      "category": "ces",
+      "name": "American Defense Service Medal",
+      "shortName": "ADSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P30_ADSM_American_Defense_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for active U.S. military service during the limited or unlimited national emergency from 8 September 1939 to 7 December 1941. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "clasp"
+        ],
+        "subsequentAwardMarker": "Service stars and 'Fleet' or 'Base' clasps per historical regulations"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11890. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.f, line 7300",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11890"
+      }
+    },
+    {
+      "id": "acm_wwii",
+      "precedence": 31,
+      "category": "ces",
+      "name": "American Campaign Medal",
+      "shortName": "ACM-WWII",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P31_ACM-WWII_American_Campaign_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service within the American Theater of Operations between 7 December 1941 and 2 March 1946. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze service star"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11889. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.g, line 7301",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11889"
+      }
+    },
+    {
+      "id": "eamec",
+      "precedence": 32,
+      "category": "ces",
+      "name": "European-African-Middle Eastern Campaign Medal",
+      "shortName": "EAMEC",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P32_EAMEC_European-African-Middle_Eastern_Campaign_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service in the European-African-Middle Eastern theater between 7 December 1941 and 8 November 1945. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "arrowhead"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze service star per campaign; arrowhead for amphibious assault or airborne landing"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, lines 11897-11899. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.h, line 7302",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), lines 11897-11899"
+      }
+    },
+    {
+      "id": "apcm",
+      "precedence": 33,
+      "category": "ces",
+      "name": "Asiatic-Pacific Campaign Medal",
+      "shortName": "APCM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P33_APCM_Asiatic-Pacific_Campaign_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service in the Asiatic-Pacific theater between 7 December 1941 and 2 March 1946. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "arrowhead"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze service star per campaign; arrowhead for amphibious assault"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11891. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.i, line 7303",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11891"
+      }
+    },
+    {
+      "id": "wwii_victory",
+      "precedence": 34,
+      "category": "ces",
+      "name": "World War II Victory Medal",
+      "shortName": "WWIIVM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P34_WWIIVM_World_War_II_Victory_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for active service between 7 December 1941 and 31 December 1946. No longer issued.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11919. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.j, line 7304",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11919"
+      }
+    },
+    {
+      "id": "nosm",
+      "precedence": 35,
+      "category": "ces",
+      "name": "Navy Occupation Service Medal",
+      "shortName": "NOSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P35_NOSM_Navy_Occupation_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for occupation duty in Europe, Asia, or Berlin during various periods 1945-1990. No longer issued.",
+      "devices": {
+        "authorized": [
+          "clasp"
+        ],
+        "subsequentAwardMarker": "'Europe' or 'Asia' clasp per qualifying occupation area"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, lines 11909-11910. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.k, line 7305",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), lines 11909-11910"
+      }
+    },
+    {
+      "id": "mha",
+      "precedence": 36,
+      "category": "ces",
+      "name": "Medal for Humane Action",
+      "shortName": "MHA",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P36_MHA_Medal_for_Humane_Action.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for participation in the Berlin Airlift (Operation VITTLES) between 26 June 1948 and 30 September 1949. No longer issued.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Historical award. Not on Table 32 list. Worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.l, line 7306"
+      }
+    },
+    {
+      "id": "ndsm",
+      "precedence": 37,
+      "category": "ces",
+      "name": "National Defense Service Medal",
+      "shortName": "NDSM",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "E.O. 10448 as amended by E.O. 13293",
+      "image": {
+        "ribbon": "/images/ribbons/P37_NDSM_National_Defense_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for honorable active duty service as a member of the Armed Forces during designated periods: 27 June 1950 to 27 July 1954; 1 January 1961 to 14 August 1974; 2 August 1990 to 30 November 1995; and 11 September 2001 to a date to be determined.",
+      "criteriaFullText": "Honorable active duty service as a member of the Armed Forces during the effective dates. All members of the National Guard and Reserve who were part of the Selected Reserve in good standing during the periods 2 August 1990 to 30 November 1995, and from 11 September 2001 to a date to be determined, are eligible. Midshipmen attending the U.S. Naval Academy during periods of eligibility are authorized the NDSM. Each subsequent award is denoted by wearing a 3/16-inch bronze star on the NDSM ribbon.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star for each subsequent qualifying period"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.m, line 7307",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 19, lines 9271-9344"
+      }
+    },
+    {
+      "id": "ksm",
+      "precedence": 38,
+      "category": "ces",
+      "name": "Korean Service Medal",
+      "shortName": "KSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P38_KSM_Korean_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service in Korea between 27 June 1950 and 27 July 1954. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "arrowhead"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze service star per campaign; arrowhead for amphibious assault"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11902. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.n, line 7308",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11902"
+      }
+    },
+    {
+      "id": "asm",
+      "precedence": 39,
+      "category": "ces",
+      "name": "Antarctica Service Medal",
+      "shortName": "ASM",
+      "marineApplicable": true,
+      "issuingAuthority": "CNO (DNS-35)",
+      "statutoryReference": "P.L. 86-600 of 7 July 1960",
+      "image": {
+        "ribbon": "/images/ribbons/P39_ASM_Antarctica_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to members of the U.S. Armed Forces, U.S. citizens, or resident aliens who participate as members of a U.S. expedition in Antarctica, or serve in a United States ship operating south of latitude 60 degrees South in support of U.S. programs in Antarctica.",
+      "criteriaFullText": "AOE encompasses all of the Antarctica continent and all water and land area south of latitude 60 degrees South. For Land: Any member of the U.S. Armed Forces, U.S. citizen, or resident alien of the United States who participates as a member of a U.S. expedition in Antarctica. For Sea: Any member who serves in a United States ship operating south of latitude 60 degrees South, in support of U.S. programs in Antarctica. On or after 1 September 2008, the minimum time required is 10 days under competent orders to duty at sea or ashore, south of latitude 60 degrees South. The days do not have to be consecutive.",
+      "devices": {
+        "authorized": [
+          "clasp"
+        ],
+        "subsequentAwardMarker": "Bronze, gold, or silver 'Wintered Over' clasp on suspension ribbon; corresponding disk on service ribbon"
+      },
+      "wearNotes": "Wintered Over disk worn on service ribbon (peninsula pointing up). Bronze = 1st winter, gold = 2nd, silver = 3+. One of the few CE&S medals that may be awarded to foreign military personnel.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.o, line 7309",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 2, lines 6856-6993"
+      }
+    },
+    {
+      "id": "afem",
+      "precedence": 40,
+      "category": "ces",
+      "name": "Armed Forces Expeditionary Medal",
+      "shortName": "AFEM",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority (Joint Staff designates qualifying operations)",
+      "statutoryReference": "E.O. 10977",
+      "image": {
+        "ribbon": "/images/ribbons/P40_AFEM_Armed_Forces_Expeditionary_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to members of the U.S. Armed Forces who participate as part of a U.S. military unit in a significant U.S. military operation in which members of multiple Military Departments participate in significant numbers, and either encounter foreign armed opposition or are otherwise placed in a position where hostile action by foreign armed forces was imminent.",
+      "criteriaFullText": "Awarded to members of the U.S. Armed Forces who: Participate as part of a U.S. military unit in a significant U.S. military operation in which members of multiple Military Departments participate in significant numbers. Either encounter foreign armed opposition during such participation, or are otherwise placed in a position where hostile action by foreign armed forces was imminent. To qualify, the Service Member must serve 30 or more consecutive days in the AOE; or engage in direct support of the operation for 30 consecutive days or 60 non-consecutive days; or serve for the full period of the operation if it lasts less than 30 days; or participate in a combat engagement; or while participating in an operation was killed or received wounds requiring medical evacuation. A 3/16-inch bronze star is worn to denote participation in each subsequent authorized operation. A 3/16-inch silver star is worn in place of five bronze stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16",
+          "globe_anchor"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star for each subsequent designated operation",
+        "specialDevice": "FMF Combat Operations Insignia (bronze Marine Corps emblem) restricted to Navy personnel attached to and operating with units of the Marine Corps Operating Forces"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.p, line 7310",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 3, lines 6999-7193"
+      }
+    },
+    {
+      "id": "vsm",
+      "precedence": 41,
+      "category": "ces",
+      "name": "Vietnam Service Medal",
+      "shortName": "VSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P41_VSM_Vietnam_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service in Vietnam or contiguous waters/airspace between 3 July 1965 and 28 March 1973, and Thailand, Laos, or Cambodia in direct support of operations in Vietnam during the same period. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per designated campaign (silver replaces 5)"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11916. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.q, line 7311",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11916"
+      }
+    },
+    {
+      "id": "swasm",
+      "precedence": 42,
+      "category": "ces",
+      "name": "Southwest Asia Service Medal",
+      "shortName": "SWASM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P42_SWASM_Southwest_Asia_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service in the Persian Gulf area of eligibility between 2 August 1990 and 30 November 1995, in support of Operations DESERT SHIELD/DESERT STORM. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze service star per designated campaign phase"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11914. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.r, line 7312",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11914"
+      }
+    },
+    {
+      "id": "kcm",
+      "precedence": 43,
+      "category": "ces",
+      "name": "Kosovo Campaign Medal",
+      "shortName": "KCM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P43_KCM_Kosovo_Campaign_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for participation in the Kosovo Campaign (24 March 1999 - 31 December 2013), supporting Operations ALLIED FORCE, JOINT GUARDIAN, ALLIED HARBOUR, SUSTAIN HOPE, NOBLE ANVIL, and Task Forces HAWK, SABER, and HUNTER. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze service star per designated campaign phase"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11903. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.s, line 7318",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11903"
+      }
+    },
+    {
+      "id": "acm",
+      "precedence": 44,
+      "category": "ces",
+      "name": "Afghanistan Campaign Medal",
+      "shortName": "ACM",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "E.O. 13363, as amended by P.L. 109-163",
+      "image": {
+        "ribbon": "/images/ribbons/P44_ACM_Afghanistan_Campaign_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service in Afghanistan (the land area of Afghanistan and all airspace above) on or after 11 September 2001. Service Member must have been permanently assigned, attached, or detailed to a unit operating in the AOE for 30 consecutive or 60 non-consecutive days, or have participated in a combat engagement, or while participating in an operation was killed or received wounds requiring medical evacuation.",
+      "criteriaFullText": "The AOE encompasses the land area of the country of Afghanistan and all airspace above such land area. Must have been permanently assigned, attached, or detailed to a unit operating in the AOE for 30 consecutive or 60 non-consecutive days, or meet one of the following: participated in a combat engagement, regardless of time in the AOE; while participating in an operation or on official duties, was killed or received wounds that required medical evacuation from the AOE; participated as a regularly assigned aircrew member flying sorties into, out of, within, or over the AOE in direct support of the designated military operation. The ACM is the only campaign or expeditionary medal authorized for service in Afghanistan on or after 1 May 2005. A bronze star is worn on the ACM for each campaign phase in which the Service Member participated.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16",
+          "globe_anchor"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per qualifying campaign phase (Liberation of Afghanistan, Consolidation I/II/III, Transition I/II)",
+        "specialDevice": "FMF Combat Operations Insignia restricted to Navy personnel attached to and operating with Marine Corps Operating Forces and engaged in active combat"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.t, line 7319",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 1, lines 6673-6850"
+      }
+    },
+    {
+      "id": "icm",
+      "precedence": 45,
+      "category": "ces",
+      "name": "Iraq Campaign Medal",
+      "shortName": "ICM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P45_ICM_Iraq_Campaign_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service in Iraq between 19 March 2003 and 31 December 2011, supporting Operations IRAQI FREEDOM and NEW DAWN. No longer issued.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per designated campaign phase"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11901. Was the only medal authorized for qualifying service in Iraq between 1 May 2005 and 31 December 2011.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.u, line 7320",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11901; election guidance at lines 7583-7597"
+      }
+    },
+    {
+      "id": "gwotem",
+      "precedence": 46,
+      "category": "ces",
+      "name": "Global War on Terrorism Expeditionary Medal",
+      "shortName": "GWOTEM",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "E.O. 13289 of 12 March 2003",
+      "image": {
+        "ribbon": "/images/ribbons/P46_GWOTEM_Global_War_on_Terrorism_Expeditionary_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to recognize Service Members who deploy overseas and participate in designated operations in direct support of the Global War on Terrorism. The Service Member must be permanently assigned or attached to (or mobilized with) a unit participating in a designated operation, and be present in one of the authorized AOEs for 30 consecutive or 60 non-consecutive days.",
+      "criteriaFullText": "The intent of the GWOTEM is to recognize Service Members who deploy overseas and participate in designated operations in direct support of the Global War on Terrorism. The Service Member must be permanently assigned or attached to (or mobilized with) a unit participating in a designated operation, and be present in one of the authorized AOE and supporting that operation for 30 consecutive or 60 non-consecutive days. The following are the only exceptions to the 30 consecutive or 60 non-consecutive day requirement: Participated in a combat engagement, regardless of time in the AOE; While participating in an operation or on official duties, was killed or received wounds that required medical evacuation from the AOE; Participated as a regularly assigned aircrew member flying sorties into, out of, within, or over the AOE in direct support of the designated military operation. Under no circumstances will service within the United States, or within 200 nautical miles of the shores of the U.S., qualify for the GWOTEM. Each subsequent award is denoted by wearing a 3/16-inch bronze star on the GWOTEM ribbon.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16",
+          "globe_anchor"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per subsequent designated operation",
+        "specialDevice": "FMF Combat Operations Insignia restricted to Navy personnel attached to and operating with Marine Corps Operating Forces and engaged in active combat"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.v, line 7321",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 6, lines 7490-7715"
+      }
+    },
+    {
+      "id": "gwotsm",
+      "precedence": 47,
+      "category": "ces",
+      "name": "Global War on Terrorism Service Medal",
+      "shortName": "GWOTSM",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "E.O. 13289",
+      "image": {
+        "ribbon": "/images/ribbons/P47_GWOTSM_Global_War_on_Terrorism_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to members of the U.S. Armed Forces who participate in or serve in support of specified operations between 11 September 2001 and a date to be determined. There is no specific geographic AOE. Service Members must be permanently assigned or attached to, or mobilized with, a unit participating in or serving in support of specified operations for 30 consecutive or 60 non-consecutive days.",
+      "criteriaFullText": "Members of the U.S. Armed Forces who participate in or serve in support of specified operations within the effective dates. There is no specific geographic AOE. Service Members must be permanently assigned or attached to, or mobilized with, a unit participating in or serving in support of specified operations for 30 consecutive or 60 non-consecutive days. Exceptions: Participated in a combat engagement; While participating in an operation or on official duties, was killed or received wounds that required medical evacuation. Personnel in initial accession training, including initial career field specific training, are not eligible. Eligibility for the GWOTSM does not begin until the Service Member reports into the first ship, unit, or other permanent duty station. Foreign personnel are not eligible for the GWOTSM. Service Members may be awarded both the GWOTSM and the GWOTEM, provided they meet the eligibility criteria for both awards. However, the qualifying period of service used to establish eligibility for one award cannot be used to establish eligibility for the other. Subsequent Awards: Not authorized.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.w, line 7322",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 7, lines 7720-7791"
+      }
+    },
+    {
+      "id": "kdsm",
+      "precedence": 48,
+      "category": "ces",
+      "name": "Korea Defense Service Medal",
+      "shortName": "KDSM",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "10 U.S.C. \u00a78308",
+      "image": {
+        "ribbon": "/images/ribbons/P48_KDSM_Korea_Defense_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for service in the Republic of Korea (and contiguous waters out to 12 nautical miles, and airspace above) on or after 28 July 1954. Service Members must have been assigned or attached to, or mobilized with, units operating in the AOE for 30 consecutive or 60 non-consecutive days. Only one award is authorized for any individual.",
+      "criteriaFullText": "The geographic AOE encompasses all land area of the Republic of Korea, its contiguous waters out to 12 nautical miles, and all airspace above those land and water areas. Service Members must have been assigned or attached to, or mobilized with, units operating in the AOE for 30 consecutive or 60 non-consecutive days, or fall within one of the following exceptions: Participated in a combat engagement; While participating in an operation or on official duties, was killed or received wounds that required medical evacuation; Participated as a regularly assigned aircrew member flying sorties into, out of, within, or over the AOE in direct support of the designated military operation. Personnel who serve in operations and exercises conducted in the AOE are considered eligible for the KDSM, provided the time criteria is met. Subsequent Awards: Only one award of the KDSM is authorized for any individual.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.x, line 7323",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 10, lines 8142-8216"
+      }
+    },
+    {
+      "id": "mbdm",
+      "precedence": 49,
+      "category": "service_medal",
+      "name": "Mexican Border Defense Medal",
+      "shortName": "MBDM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of War",
+      "effectiveDate": "2025-08-13",
+      "image": {
+        "ribbon": "/images/ribbons/P49_MBDM_Mexican_Border_Defense_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to military service members deployed in support of U.S. Customs and Border Protection operations on the Mexican border for 30 days of service (consecutive or cumulative) between 20 January 2025 and termination date.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Worn immediately after the Korea Defense Service Medal.",
+      "citations": {
+        "precedence": "MARADMIN 233/26",
+        "criteria": "MARADMIN 233/26, Section 4",
+        "wear": "MARADMIN 233/26, Section 9"
+      }
+    },
+    {
+      "id": "afsm",
+      "precedence": 50,
+      "category": "ces",
+      "name": "Armed Forces Service Medal",
+      "shortName": "AFSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Under Secretary of Defense for Personnel and Readiness; COs with NAM approval authority",
+      "statutoryReference": "E.O. 12985",
+      "image": {
+        "ribbon": "/images/ribbons/P50_AFSM_Armed_Forces_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Service Members who participate as members of U.S. military units in a designated U.S. military operation deemed to be a significant activity, and encounter no foreign armed opposition or imminent threat of hostile action. Effective on or after 1 June 1992.",
+      "criteriaFullText": "The AFSM may be awarded to Service Members who: Participate as members of U.S. military units, in a designated U.S. military operation deemed to be a significant activity; and Encounter no foreign armed opposition or imminent threat of hostile action. Service Members must have been permanently assigned, attached, or detailed to a unit that deployed to participate in a specifically designated U.S. military operation within the AOE for 30 consecutive days (or for the full period when an operation is less than 30 days) or for 60 non-consecutive days. The AFSM may be authorized for U.S. military operations for which no other U.S. campaign or service medal is appropriate, such as peacekeeping operations, prolonged humanitarian operations, U.S. military operations in direct support of the United Nations or NATO, and for operations of assistance to friendly foreign nations. The AFSM is not authorized for participation in national or international training exercises. Each subsequent award is denoted wearing a bronze star on the AFSM ribbon. A silver star is worn in lieu of five bronze stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star for each subsequent designated operation"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.y, line 7324",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 5, lines 7334-7482"
+      }
+    },
+    {
+      "id": "hsm",
+      "precedence": 51,
+      "category": "ces",
+      "name": "Humanitarian Service Medal",
+      "shortName": "HSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Chairman, JCS (multi-Service ops) or SECNAV (Navy/Marine Corps only ops)",
+      "statutoryReference": "E.O. 11965",
+      "image": {
+        "ribbon": "/images/ribbons/P51_HSM_Humanitarian_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to members of the U.S. Armed Forces who, on or after 1 April 1975, distinguish themselves by meritorious, direct, non-routine participation in a significant military act or operation of a humanitarian nature.",
+      "criteriaFullText": "The HSM is awarded to members of the U.S. Armed Forces who, on or after 1 April 1975, distinguish themselves by meritorious, direct, non-routine participation in a significant military act or operation of a humanitarian nature. The following types of military acts or operations may qualify: Significant assistance related to national or international disasters, such as earthquakes, floods, hurricanes, typhoons, or nuclear accidents; Relief to a famine-stricken area; Evacuation of personnel from an area threatened by a hostile force; Support or resettlement of refugees or evacuees; Other significant military activities directly related to humanitarian service. Service rendered must be above and beyond normal duties and of major significance; provide immediate relief, relieve human suffering, and save lives and/or property; and must positively affect the outcome of the situation. Each subsequent award for a different operation is denoted by wearing a bronze star on the HSM ribbon. A silver star is worn in lieu of five bronze stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star for each subsequent designated humanitarian operation"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.z, line 7325",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 8, lines 7799-7995"
+      }
+    },
+    {
+      "id": "movsm",
+      "precedence": 52,
+      "category": "ces",
+      "name": "Military Outstanding Volunteer Service Medal",
+      "shortName": "MOVSM",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "E.O. 12830",
+      "image": {
+        "ribbon": "/images/ribbons/P52_MOVSM_Military_Outstanding_Volunteer_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for sustained voluntary service to the civilian community, including the military family community, that is significant in nature, produces tangible results, reflects favorably on the DON and DoD, and is of a sustained and direct nature. A sustained period of volunteer service is normally 36 months.",
+      "criteriaFullText": "Qualifying service must be voluntary; be to the civilian community, including the military family community; be significant in nature and produce tangible results; reflect favorably on the DON and the DoD; be of a sustained and direct nature; and not be performed while deployed in a combat theater. All the Military Departments have established that a sustained period of volunteer service is normally 36 months. The MOVSM is intended to recognize exceptional community support over time, not a single act or achievement or a few occasional contributions to the community. The MOVSM is intended to recognize volunteer service of a direct and tangible nature. Therefore, attending membership meetings or social events, or sitting on a board of directors, is not qualifying service. Multiple awards of the MOVSM during a single tour of duty are not authorized. Each subsequent award is denoted by a 3/16-inch bronze star. A 3/16-inch silver star is worn in lieu of five bronze stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.aa, line 7326",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 18, lines 9085-9264"
+      }
+    },
+    {
+      "id": "ssdr",
+      "precedence": 53,
+      "category": "ces",
+      "name": "Sea Service Deployment Ribbon",
+      "shortName": "SSDR",
+      "marineApplicable": true,
+      "issuingAuthority": "COs of units deployed overseas, overseas homeported ships, or overseas based units of the Marine Corps operating forces with NAM approval authority",
+      "statutoryReference": "SECNAVINST 1650.35 of 26 January 1981",
+      "image": {
+        "ribbon": "/images/ribbons/P53_SSDR_Sea_Service_Deployment_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Navy and Marine Corps personnel for sea duty or overseas sea duty deployments. Marine Corps personnel assigned to units of the Marine Corps operating forces permanently based in the U.S. are eligible upon a deployment of at least 90 days to an overseas location. Personnel assigned to operating forces permanently based outside the U.S. are eligible upon completion of 12 months overseas service.",
+      "criteriaFullText": "Marine Corps Criteria: Personnel assigned to units of the Marine Corps operating forces permanently based in the U.S. are eligible upon a deployment of at least 90 days to an overseas location. Commanders of deploying CONUS forces may waive up to 14 days. Personnel assigned to units of the Marine Corps operating forces permanently based outside the U.S. are eligible upon completion of 12 months overseas service. Marines are limited to one award of the SSDR per 12-month period. Each subsequent award is denoted by a 3/16-inch bronze star. A 3/16-inch silver star is worn in lieu of the five bronze stars. Eligibility is limited to Navy and Marine Corps military personnel. Members of other Military Services, civilians, and foreign personnel are not eligible.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per additional 12-month qualifying period (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.ab, line 7328",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 31, lines 10435-10833"
+      }
+    },
+    {
+      "id": "nasr",
+      "precedence": 54,
+      "category": "ces",
+      "name": "Navy Arctic Service Ribbon",
+      "shortName": "NASR",
+      "marineApplicable": true,
+      "issuingAuthority": "COs of ships or units operating above the Arctic Circle with NAM approval authority",
+      "statutoryReference": "OPNAVNOTE 1650 of 3 June 1987",
+      "image": {
+        "ribbon": "/images/ribbons/P54_NASR_Navy_Arctic_Service_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to officers and enlisted personnel of the Navy and Marine Corps, or civilians, who complete 28 days, consecutive or non-consecutive, in the geographic AOE: the land, sea, and airspace above the Arctic Circle. Effective on or after 1 January 1982.",
+      "criteriaFullText": "Awarded to officers and enlisted personnel of the Navy and Marine Corps, or civilians (including resident aliens of the U.S.) who complete 28 days, consecutive or non-consecutive, in the geographic AOE, which is the land, sea, and airspace above the Arctic Circle. For personnel working at remote ice camps, and divers working under the ice, each day of duty counts as two days toward NASR eligibility. However, Marine Corps personnel undergoing annual cold weather training above the Arctic Circle do not qualify for the 2-for-1 credit. No more than one day's credit is allowed for flights in and/or out of the AOE during any 24-hour period. Subsequent Awards: There are no subsequent awards. Authorized Devices: There are no authorized devices.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none (single award only)"
+      },
+      "wearNotes": "No medal authorized. Ribbon only. Note: Image file 048_Coast_Guard_Arctic_Service_Ribbon.png is the Coast Guard variant; no Navy/Marine Corps version found in inventory.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.ac, line 7331",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 22, lines 9577-9617"
+      }
+    },
+    {
+      "id": "osr",
+      "precedence": 55,
+      "category": "ces",
+      "name": "Navy and Marine Corps Overseas Service Ribbon",
+      "shortName": "OSR",
+      "marineApplicable": true,
+      "issuingAuthority": "COs of overseas units, or overseas homeported ships, with NAM approval authority",
+      "statutoryReference": "SECNAV letter 1650 Ser NDBDM/886 of 17 September 1986",
+      "image": {
+        "ribbon": "/images/ribbons/P55_OSR_Navy_and_Marine_Corps_Overseas_Service_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Navy and Marine Corps personnel in recognition of sustained overseas service. Marine Corps Criteria: Only personnel assigned to overseas supporting establishment commands (base, post, and station) are eligible. The OSR requires 12 months, consecutive or non-consecutive, served at an overseas supporting establishment command. Personnel serving with Marine Corps operating forces are not eligible.",
+      "criteriaFullText": "Marine Corps Criteria: Only personnel assigned to overseas supporting establishment commands (e.g., base, post, and station) are eligible for the OSR. Personnel serving with the Marine Corps operating forces, whether active or reserve, are not eligible. The OSR requires 12 months, consecutive or non-consecutive, served at an overseas supporting establishment command. An individual may not receive the SSDR and the OSR for the same period if assigned to a Marine Corps unit. The OSR awarding authority may waive up to 14 days. Second and subsequent awards will be earned for each additional 12-month period of qualifying service. A subsequent award is denoted by a 3/16-inch bronze star. A 3/16-inch silver star is worn in lieu of five bronze stars. Overseas means outside the U.S. For purposes of the OSR, Hawaii, and Puerto Rico are not considered overseas.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per additional 12-month qualifying period (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.ad, line 7334",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 21, lines 9445-9570"
+      }
+    },
+    {
+      "id": "mcrr",
+      "precedence": 56,
+      "category": "ces",
+      "name": "Marine Corps Recruiting Ribbon",
+      "shortName": "MCRR",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "SECNAV letter 1650 Ser NDBDM/0491 of 7 June 1995",
+      "image": {
+        "ribbon": "/images/ribbons/P56_MCRR_Marine_Corps_Recruiting_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Marines who have successfully served in an eligible recruiting billet (MOS 4810, 8411, or 8412) and meet the period of service requirements. Generally, Marines must complete a successful 36-month tour of duty while serving honorably in a qualifying billet.",
+      "criteriaFullText": "Marines who have successfully served in an eligible billet and meet the period of service requirements. Eligible Billets: Marines possessing MOS 4810 or 8412 and have served in MOS 4810 or 8412 billets; Marines possessing MOS 8411 and assigned to duty in a recruiting billet (MOS 8411); Marine Corps Recruiting Command Headquarters; Marine Corps Districts; Recruiting Stations leadership. Recruiters assigned to recruiting duty (MOS 8411) are eligible to receive the ribbon upon completion of a successful tour of duty. Generally, to qualify for the MCRR, Marines must complete a successful 36-month tour of duty while serving honorably in a qualifying billet. Recruiters who are fault transferred (relieved for cause) from recruiting duty are not eligible for the MCRR. Each subsequent award is denoted by a 3/16-inch bronze star worn on the ribbon. A 3/16-inch silver star is worn in place of 5 bronze stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per subsequent tour (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.ae, line 7337",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 15, lines 8793-8929"
+      }
+    },
+    {
+      "id": "mcdir",
+      "precedence": 57,
+      "category": "ces",
+      "name": "Marine Corps Drill Instructor Ribbon",
+      "shortName": "MCDIR",
+      "marineApplicable": true,
+      "issuingAuthority": "COs at the Marine Corps Recruit Depots and Officer Candidate School",
+      "statutoryReference": "SECNAV letter 1650 Ser NDBDM/482 of 15 July 1997",
+      "image": {
+        "ribbon": "/images/ribbons/P57_MCDIR_Marine_Corps_Drill_Instructor_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Marines possessing the 8511 MOS who have served in an 8511 drill instructor billet, or to Marines serving in other eligible billets at Recruit Training Regiments, Recruit Training Battalions, Drill Instructor School, or Officer Candidate School, upon completion of a successful tour of duty. Effective on or after 6 October 1952.",
+      "criteriaFullText": "Marines must both serve in an eligible billet and satisfy the period of service requirements. Eligible Billets: Marines possessing the 8511 MOS, who have served in an 8511 billet, are eligible to receive the MCDIR. Marines in the following billets are also eligible: Recruit Training Regiment \u2013 CO, XO, Operations Officer (S-3), SGTMAJ, Series Commander; Recruiting Training Battalion - CO, XO, S-3, SGTMAJ; Recruit Training Regiment Support Battalion \u2013 CO, XO, S-3, SGTMAJ, Company COs; Drill Instructor School \u2013 Director and Assistant Director; OCS leadership and training company billets. Drill Instructors (MOS 0911): The Marine's projected detachment date from drill instructor duty is considered the end of a qualifying tour of duty. Personnel who transfer prior to their original projected rotation date are authorized to receive this award if they complete a minimum of 30 months of drill instructor duty (Exception: 20 months for those who received their 8511/0911 MOS prior to 1 December 1996). Each subsequent award is denoted by a 3/16-inch bronze star on the ribbon. A 3/16-inch silver star is worn in place of five bronze stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per subsequent tour (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.af, line 7340",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 12, lines 8407-8546"
+      }
+    },
+    {
+      "id": "mcsgr",
+      "precedence": 58,
+      "category": "ces",
+      "name": "Marine Security Guard Ribbon",
+      "shortName": "MCSGR",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "SECNAV letter 1650 Ser NDBDM/482 of 15 July 1997",
+      "image": {
+        "ribbon": "/images/ribbons/P58_MCSGR_Marine_Security_Guard_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Marines possessing MOS 8151 who are serving with the Marine Corps Embassy Security Group (MCESG), upon completion of 24 months of service at a foreign establishment. Subsequent awards for every 24 months served, consecutively or cumulatively.",
+      "criteriaFullText": "Personnel: Marines possessing MOS 8151 who are serving with the Marine Corps Embassy Security Group (MCESG), formerly Marine Security Guard Battalion (MSGBN), or previously served with the MSGBN in MOS 8151 billets at embassies, are eligible to receive the MCSGR. Period of service: Marines assigned to MSG duty (MOS 8151) are eligible to receive the MCSGR upon completion of 24 months of service at a foreign establishment. Subsequent awards will be made for every 24 months served, either consecutively or cumulatively. Marines who served successful tours at a lettered MCESG company headquarters or at a HQ MCESG, Quantico are not eligible to receive this award. Personnel transferred early for the Good of the Service must have served a minimum of 12 months in the program to be eligible for this award. Personnel transferred due to Relief for Cause are not eligible for the ribbon. Each subsequent award is denoted by a 3/16-inch bronze star. A 3/16-inch silver star is worn in lieu of five bronze stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per additional 24-month qualifying tour (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.ag, line 7343",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 16, lines 8937-9031"
+      }
+    },
+    {
+      "id": "mccir",
+      "precedence": 59,
+      "category": "ces",
+      "name": "Marine Corps Combat Instructor Ribbon",
+      "shortName": "MCCIR",
+      "marineApplicable": true,
+      "issuingAuthority": "COs of the Schools of Infantry (SOI) East and West",
+      "statutoryReference": "ALNAV 060/14",
+      "image": {
+        "ribbon": "/images/ribbons/P59_MCCIR_Marine_Corps_Combat_Instructor_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Marines who successfully complete a prescribed tour of duty in an eligible Combat Instructor billet (MOS 0913) or leadership billet at SOI East or SOI West. Combat Instructors must serve 36 months; leadership billets require 18 months. Effective on or after 9 October 2002.",
+      "criteriaFullText": "To earn the MCCIR, a Marine must successfully complete a prescribed tour of duty in an eligible billet. Eligible billets include Marines serving in an MOS 0913 billet (formerly 8513) who possess the 0913 MOS; Marines serving in billets at SOI East or SOI West containing the word 'Instructor' (must possess MOS 0913); additional advanced Infantry Training Battalion billets such as Reconnaissance Training Company SNCOIC and Light Armored Vehicle Crewman Course Vehicle Operator; and leadership billets including CO, Sergeant Major, XO, Marine Gunner, First Sergeant, Operations Officer, Platoon Commander, OIC, and Director/Assistant Director Combat Instructor School. Combat Instructors must serve 36 months to complete a prescribed tour of duty. Leadership billets must serve 18 months. Personnel who are transferred due to relief for cause are not eligible. Each subsequent award is denoted by a 3/16-inch bronze star on the ribbon. A 3/16-inch silver star is worn in place of five bronze stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16",
+          "star_silver_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per subsequent qualifying tour (silver replaces 5)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.ah, line 7346",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 11, lines 8223-8400"
+      }
+    },
+    {
+      "id": "afrm",
+      "precedence": 60,
+      "category": "ces",
+      "name": "Armed Forces Reserve Medal",
+      "shortName": "AFRM",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "statutoryReference": "E.O. 10163, as amended by E.O. 10439 and E.O. 13013",
+      "image": {
+        "ribbon": "/images/ribbons/P60_AFRM_Armed_Forces_Reserve_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Issued to any officer or enlisted member of the Reserve Components of the Armed Forces who completes 10 years of honorable satisfactory service performed within a period of 12 consecutive years, or on or after 1 August 1990 was called to active duty in support of specifically designated U.S. military operations or contingencies.",
+      "criteriaFullText": "Issued to any officer or enlisted member of the Reserve Components of the Armed Forces of the United States who: Completes 10 years of honorable satisfactory service performed within a period of 12 consecutive years (See hourglass device); or On or after 1 August 1990, was called to active duty and served in accordance with applicable statutes (see 'M' device); or On or after 1 August 1990, volunteered and served on active duty in support of specifically designated U.S. military operations or contingencies (see 'M' device). Any period of service in any Regular component of the Armed Forces cannot be counted toward the 10-year AFRM requirement. The same period of service in the Reserve component cannot be credited toward both the AFRM and the Selected Marine Corps Reserve Medal (SMCRM). Authorized Devices: Hourglass Device (bronze, silver, or gold to denote 10, 20, or 30 years; gold and bronze together = 40 years); Bronze 'M' Mobilization device; 3/16-inch bronze Arabic numerals indicating the number of the award after the initial 'M' device.",
+      "devices": {
+        "authorized": [
+          "clasp",
+          "numeral_gold",
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "Hourglass device (bronze/silver/gold by years), 'M' device for mobilization, bronze numerals for subsequent 'M' awards"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.aj, line 7351",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 4, lines 7195-7329"
+      }
+    },
+    {
+      "id": "mcrr_legacy",
+      "precedence": 61,
+      "category": "ces",
+      "name": "Marine Corps Reserve Ribbon",
+      "shortName": "MCR-R",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of the Navy (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P61_MCR-R_Marine_Corps_Reserve_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Historical award (1945-1965) for honorable service in the Marine Corps Reserve. No longer issued; superseded by the Selected Marine Corps Reserve Medal and the AFRM.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "No longer being issued per SECNAV M-1650.1 Table 32, line 11904. Historical award worn by qualifying veterans only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.8.ak, line 7353",
+        "criteria": "SECNAV M-1650.1 Table 32 (no longer issued), line 11904"
+      }
+    },
+    {
+      "id": "phil_puc",
+      "precedence": 62,
+      "category": "foreign_unit",
+      "name": "Philippine Presidential Unit Citation",
+      "shortName": "PPUC",
+      "marineApplicable": true,
+      "issuingAuthority": "President of the Republic of the Philippines",
+      "image": {
+        "ribbon": "/images/ribbons/P62_PPUC_Philippine_Presidential_Unit_Citation.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Foreign unit citation awarded by the Republic of the Philippines to U.S. units that distinguished themselves in operations involving the Philippines. Worn on the Marine Corps uniform after foreign personal decorations.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "Per Philippine award regulations"
+      },
+      "wearNotes": "No medal authorized. Ribbon only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.11.a, line 7393"
+      }
+    },
+    {
+      "id": "korean_puc",
+      "precedence": 63,
+      "category": "foreign_unit",
+      "name": "Korean Presidential Unit Citation",
+      "shortName": "KPUC",
+      "marineApplicable": true,
+      "issuingAuthority": "President of the Republic of Korea",
+      "image": {
+        "ribbon": "/images/ribbons/P63_KPUC_Korean_Presidential_Unit_Citation.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Foreign unit citation awarded by the Republic of Korea to U.S. units that distinguished themselves during the Korean War or subsequent operations.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "Per ROK award regulations"
+      },
+      "wearNotes": "No medal authorized. Ribbon only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.11.b, line 7394"
+      }
+    },
+    {
+      "id": "vn_puc",
+      "precedence": 64,
+      "category": "foreign_unit",
+      "name": "Vietnam Presidential Unit Citation",
+      "shortName": "VPUC",
+      "marineApplicable": true,
+      "issuingAuthority": "President of the Republic of Vietnam (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P64_VPUC_Vietnam_Presidential_Unit_Citation.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Foreign unit citation awarded by the Republic of Vietnam to U.S. units that distinguished themselves during the Vietnam War.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "Per RVN award regulations (historical)"
+      },
+      "wearNotes": "No medal authorized. Ribbon only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.11.c, line 7395"
+      }
+    },
+    {
+      "id": "rvn_gallantry_cross_uc",
+      "precedence": 65,
+      "category": "foreign_unit",
+      "name": "Republic of Vietnam Meritorious Unit Citation Gallantry Cross Color",
+      "shortName": "RVN-GC",
+      "marineApplicable": true,
+      "issuingAuthority": "Republic of Vietnam (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P65_RVN-GC_Republic_of_Vietnam_Meritorious_Unit_Citation_Gallantry_Cross_Color.png",
+        "fileExists": false
+      },
+      "criteriaSummary": "Foreign unit citation in the Gallantry Cross Color awarded by the Republic of Vietnam to U.S. units for valor in combat operations.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "Per RVN award regulations"
+      },
+      "wearNotes": "No medal authorized. Ribbon only. Worn with palm device when authorized per original RVN award document.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.11.d, lines 7396-7398"
+      }
+    },
+    {
+      "id": "rvn_civil_actions_uc",
+      "precedence": 66,
+      "category": "foreign_unit",
+      "name": "Republic of Vietnam Meritorious Unit Citation Civil Actions Color",
+      "shortName": "RVN-CA",
+      "marineApplicable": true,
+      "issuingAuthority": "Republic of Vietnam (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P66_RVN-CA_Republic_of_Vietnam_Meritorious_Unit_Citation_Civil_Actions_Color.png",
+        "fileExists": false
+      },
+      "criteriaSummary": "Foreign unit citation in the Civil Actions Color awarded by the Republic of Vietnam to U.S. units for meritorious civil affairs or non-combat service during the Vietnam War.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "Per RVN award regulations"
+      },
+      "wearNotes": "No medal authorized. Ribbon only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.11.e, lines 7400-7402"
+      }
+    },
+    {
+      "id": "phil_defense",
+      "precedence": 67,
+      "category": "non_us_service",
+      "name": "Philippine Defense Ribbon",
+      "shortName": "PDR",
+      "marineApplicable": true,
+      "issuingAuthority": "Republic of the Philippines",
+      "image": {
+        "ribbon": "/images/ribbons/P67_PDR_Philippine_Defense_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Republic of the Philippines for service in the defense of the Philippines between 8 December 1941 and 15 June 1942. No medal authorized.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per Philippine award regulations"
+      },
+      "wearNotes": "No medal authorized. Ribbon only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.12.a, line 7408"
+      }
+    },
+    {
+      "id": "phil_liberation",
+      "precedence": 68,
+      "category": "non_us_service",
+      "name": "Philippine Liberation Ribbon",
+      "shortName": "PLR",
+      "marineApplicable": true,
+      "issuingAuthority": "Republic of the Philippines",
+      "image": {
+        "ribbon": "/images/ribbons/P68_PLR_Philippine_Liberation_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Republic of the Philippines for participation in the liberation of the Philippines between 17 October 1944 and 3 September 1945. No medal authorized.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze star per Philippine award regulations"
+      },
+      "wearNotes": "No medal authorized. Ribbon only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.12.b, line 7409"
+      }
+    },
+    {
+      "id": "phil_independence",
+      "precedence": 69,
+      "category": "non_us_service",
+      "name": "Philippine Independence Ribbon",
+      "shortName": "PIR",
+      "marineApplicable": true,
+      "issuingAuthority": "Republic of the Philippines",
+      "image": {
+        "ribbon": "/images/ribbons/P69_PIR_Philippine_Independence_Ribbon.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Republic of the Philippines to personnel who received both the Philippine Defense Ribbon and the Philippine Liberation Ribbon, in commemoration of Philippine independence on 4 July 1946. No medal authorized.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "No medal authorized. Ribbon only.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.12.c, line 7410"
+      }
+    },
+    {
+      "id": "un_korea",
+      "precedence": 70,
+      "category": "non_us_service",
+      "name": "United Nations Service Medal",
+      "shortName": "UNSM",
+      "marineApplicable": true,
+      "issuingAuthority": "United Nations",
+      "image": {
+        "ribbon": "/images/ribbons/P70_UNSM_United_Nations_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the United Nations to personnel who served in operations in Korea between 27 June 1950 and 27 July 1954 in support of UN action.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none (single award)"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.12.d, line 7411"
+      }
+    },
+    {
+      "id": "un_medal",
+      "precedence": 71,
+      "category": "non_us_service",
+      "name": "United Nations Medal",
+      "shortName": "UNM",
+      "marineApplicable": true,
+      "issuingAuthority": "United Nations",
+      "image": {
+        "ribbon": "/images/ribbons/P71_UNM_United_Nations_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the United Nations to U.S. military personnel for service of at least 6 months with a designated UN mission. Marines may wear only one UN Medal regardless of the number of UN missions in which they participated; subsequent UN missions denoted by service stars.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze service star per subsequent UN mission"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.12.e, line 7412"
+      }
+    },
+    {
+      "id": "nato_medal",
+      "precedence": 72,
+      "category": "non_us_service",
+      "name": "NATO Medal",
+      "shortName": "NATO",
+      "marineApplicable": true,
+      "issuingAuthority": "North Atlantic Treaty Organization",
+      "image": {
+        "ribbon": "/images/ribbons/P72_NATO_NATO_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by NATO for participation in designated NATO operations. Marines are authorized to wear only one NATO Medal (the first one awarded); subsequent NATO Medals are represented by a bronze service star.",
+      "devices": {
+        "authorized": [
+          "star_bronze_3_16"
+        ],
+        "subsequentAwardMarker": "3/16-inch bronze service star per subsequent NATO Medal"
+      },
+      "wearNotes": "Authorized NATO operations include Yugoslavia, Kosovo, Eagle Assist (Article 5), Active Endeavor (Article 5), All Balkans Operations (Non Article 5), ISAF Afghanistan (Non Article 5), Training Implementation Mission-Iraq, and Implementation Mission-Iraq. See MCO 1020.34H \u00a75401.4.d for attachment guidance.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.12.f, lines 7413-7447"
+      }
+    },
+    {
+      "id": "mfo",
+      "precedence": 73,
+      "category": "non_us_service",
+      "name": "Multinational Force and Observers Medal",
+      "shortName": "MFO",
+      "marineApplicable": true,
+      "issuingAuthority": "Multinational Force and Observers (Sinai)",
+      "image": {
+        "ribbon": "/images/ribbons/P73_MFO_Multinational_Force_and_Observers_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Multinational Force and Observers (MFO) to personnel who served at least 90 days with the MFO in the Sinai Peninsula since 3 August 1981.",
+      "devices": {
+        "authorized": [
+          "numeral_gold"
+        ],
+        "subsequentAwardMarker": "Numeral device per MFO regulations for subsequent qualifying service"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.12.g, line 7448"
+      }
+    },
+    {
+      "id": "iadb",
+      "precedence": 74,
+      "category": "non_us_service",
+      "name": "Inter-American Defense Board Medal",
+      "shortName": "IADB",
+      "marineApplicable": true,
+      "issuingAuthority": "Inter-American Defense Board",
+      "image": {
+        "ribbon": "/images/ribbons/P74_IADB_Inter-American_Defense_Board_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Inter-American Defense Board to U.S. military personnel who have served at least one year as a member of the Inter-American Defense Board or its subordinate units.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "Per IADB regulations"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.12.h, line 7449"
+      }
+    },
+    {
+      "id": "rvncm",
+      "precedence": 75,
+      "category": "foreign_service",
+      "name": "Republic of Vietnam Campaign Medal",
+      "shortName": "RVNCM",
+      "marineApplicable": true,
+      "issuingAuthority": "Republic of Vietnam (historical)",
+      "image": {
+        "ribbon": "/images/ribbons/P75_RVNCM_Republic_of_Vietnam_Campaign_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Republic of Vietnam to personnel who served at least 6 months in Vietnam, or were wounded, captured, or killed in action, between 1 March 1961 and 28 March 1973.",
+      "devices": {
+        "authorized": [
+          "clasp"
+        ],
+        "subsequentAwardMarker": "RVN '1960-' device (date bar) on the suspension ribbon and lapel bar"
+      },
+      "wearNotes": "Worn with the 1960 device (date bar) on the suspension ribbon.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.13.a, line 7453"
+      }
+    },
+    {
+      "id": "klm",
+      "precedence": 76,
+      "category": "foreign_service",
+      "name": "Kuwait Liberation Medal",
+      "shortName": "KLM",
+      "marineApplicable": true,
+      "issuingAuthority": "Government of Kuwait (historical placement in MCO precedence)",
+      "image": {
+        "ribbon": "/images/ribbons/P76_KLM_Kuwait_Liberation_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Foreign service award listed in the MCO 1020.34H precedence at \u00a75102.13.b. The two Kuwait Liberation variants (Saudi Arabia issue and Kuwait issue) are listed separately at \u00a75102.13.c and \u00a75102.13.d. This entry preserves the precedence position.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "MCO precedence chart lists 'Kuwait Liberation Medal' as a separate precedence position from the two specific issues below. May reference a consolidated entry; cite source for clarification.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.13.b, line 7454"
+      }
+    },
+    {
+      "id": "klm_sa",
+      "precedence": 77,
+      "category": "foreign_service",
+      "name": "Kuwait Liberation Medal (Saudi Arabia)",
+      "shortName": "KLM-SA",
+      "marineApplicable": true,
+      "issuingAuthority": "Kingdom of Saudi Arabia",
+      "image": {
+        "ribbon": "/images/ribbons/P77_KLM-SA_Kuwait_Liberation_Medal_(Saudi_Arabia).png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Kingdom of Saudi Arabia to U.S. military personnel who participated in Operations DESERT SHIELD/DESERT STORM between 17 January 1991 and 28 February 1991.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.13.c, line 7455"
+      }
+    },
+    {
+      "id": "klm_kw",
+      "precedence": 78,
+      "category": "foreign_service",
+      "name": "Kuwait Liberation Medal (Kuwait)",
+      "shortName": "KLM-KW",
+      "marineApplicable": true,
+      "issuingAuthority": "Government of Kuwait",
+      "image": {
+        "ribbon": "/images/ribbons/P78_KLM-KW_Kuwait_Liberation_Medal_(Kuwait).png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Government of Kuwait to U.S. military personnel who participated in Operations DESERT SHIELD/DESERT STORM between 2 August 1990 and 31 August 1993.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.13.d, line 7456"
+      }
+    },
+    {
+      "id": "rok_wsm",
+      "precedence": 79,
+      "category": "foreign_service",
+      "name": "Republic of Korea War Service Medal",
+      "shortName": "ROKWSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Republic of Korea",
+      "image": {
+        "ribbon": "/images/ribbons/P79_ROKWSM_Republic_of_Korea_War_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the Republic of Korea to U.S. military personnel who served in the Korean War between 25 June 1950 and 27 July 1953. Originally offered in 1951 but not accepted by U.S. government until 1999.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.13.e, line 7457"
+      }
+    },
+    {
+      "id": "rifle_qual",
+      "precedence": 80,
+      "category": "marksmanship",
+      "name": "Rifle Qualification Badge",
+      "shortName": "RIFLE",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "image": {
+        "ribbon": "/images/ribbons/P80_RIFLE_Rifle_Qualification_Badge.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Marines who qualify with the service rifle. A marksman, sharpshooter, or expert is a member who qualifies by firing the prescribed courses and has attained the minimum qualifying score.",
+      "criteriaFullText": "A marksman, sharpshooter, or expert is a member in any rank, rate, or rating who qualifies by firing the prescribed courses and has attained the minimum qualifying score. Awards are worn in the following order: Competition Badges; Rifle Qualification Award; Pistol Qualification Award. Marksmanship awards take precedence after all other awards covered in this manual. Navy and Marine Corps personnel are not authorized to wear marksmanship awards issued by other Services.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "Badge level (Marksman / Sharpshooter / Expert) based on qualification score"
+      },
+      "wearNotes": "Worn as a badge, not a ribbon. Precedence after all other ribbons/medals. See Marine Corps Uniform Regulations for badge specifications.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75500, line 7200; \u00a75102.1, line 7200",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 17, lines 9039-9077"
+      }
+    },
+    {
+      "id": "pistol_qual",
+      "precedence": 81,
+      "category": "marksmanship",
+      "name": "Pistol Qualification Badge",
+      "shortName": "PISTOL",
+      "marineApplicable": true,
+      "issuingAuthority": "COs with NAM approval authority",
+      "image": {
+        "ribbon": "/images/ribbons/P81_PISTOL_Pistol_Qualification_Badge.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Marines who qualify with the service pistol. A marksman, sharpshooter, or expert is a member who qualifies by firing the prescribed courses and has attained the minimum qualifying score. Worn after the Rifle Qualification Badge.",
+      "criteriaFullText": "A marksman, sharpshooter, or expert is a member in any rank, rate, or rating who qualifies by firing the prescribed courses and has attained the minimum qualifying score. Awards are worn in the following order: Competition Badges; Rifle Qualification Award; Pistol Qualification Award. Marksmanship awards take precedence after all other awards covered in this manual.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "Badge level (Marksman / Sharpshooter / Expert) based on qualification score"
+      },
+      "wearNotes": "Worn as a badge, not a ribbon. Precedence after Rifle Qualification Badge. See Marine Corps Uniform Regulations for badge specifications.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75500, line 7200",
+        "criteria": "SECNAV M-1650.1 Appendix 4A Tab 17, lines 9039-9077"
+      }
+    },
+    {
+      "id": "pmof",
+      "precedence": 82,
+      "category": "nonmilitary_personal",
+      "name": "Presidential Medal of Freedom",
+      "shortName": "PMoF",
+      "marineApplicable": true,
+      "issuingAuthority": "President of the United States",
+      "image": {
+        "ribbon": "/images/ribbons/P82_PMoF_Presidential_Medal_of_Freedom.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Highest civilian award of the United States, presented by the President for especially meritorious contribution to the security or national interests of the United States, world peace, cultural or other significant public or private endeavors. Marines may wear only with CNO/CMC documented permission.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Worn after all unit awards and before campaign/service awards (MCO \u00a75102.7). Non-military personal decorations may not be worn unless at least one military award is worn at the same time. Requires explicit CMC concurrence per SECNAV M-1650.1 \u00a75.5, lines 11065-11110.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.7.a.(1), line 7250"
+      }
+    },
+    {
+      "id": "nsm",
+      "precedence": 83,
+      "category": "nonmilitary_personal",
+      "name": "National Security Medal",
+      "shortName": "NSM",
+      "marineApplicable": true,
+      "issuingAuthority": "President of the United States",
+      "image": {
+        "ribbon": "/images/ribbons/P83_NSM_National_Security_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded for distinguished achievement or outstanding contribution in the field of intelligence relating to the national security. Marines may wear only with CMC documented permission.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Requires CMC concurrence per SECNAV M-1650.1 \u00a75.5.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.7.a.(2), line 7253"
+      }
+    },
+    {
+      "id": "nidsm",
+      "precedence": 84,
+      "category": "nonmilitary_personal",
+      "name": "National Intelligence Distinguished Service Medal",
+      "shortName": "NIDSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Director of National Intelligence",
+      "image": {
+        "ribbon": "/images/ribbons/P84_NIDSM_National_Intelligence_Distinguished_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the DNI for exceptionally distinguished service to the Intelligence Community. Marines may wear only with CMC documented permission.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Requires CMC concurrence per SECNAV M-1650.1 \u00a75.5.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.7.a.(3), line 7256"
+      }
+    },
+    {
+      "id": "nima",
+      "precedence": 85,
+      "category": "nonmilitary_personal",
+      "name": "National Intelligence Medal of Achievement",
+      "shortName": "NIMA",
+      "marineApplicable": true,
+      "issuingAuthority": "Director of National Intelligence",
+      "image": {
+        "ribbon": "/images/ribbons/P85_NIMA_National_Intelligence_Medal_of_Achievement.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the DNI for outstanding achievement related to a particular intelligence project or effort. Marines may wear only with CMC documented permission.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Requires CMC concurrence per SECNAV M-1650.1 \u00a75.5.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.7.a.(4), line 7259"
+      }
+    },
+    {
+      "id": "nasa_dsm",
+      "precedence": 86,
+      "category": "nonmilitary_personal",
+      "name": "NASA Distinguished Service Medal",
+      "shortName": "NASA-DSM",
+      "marineApplicable": true,
+      "issuingAuthority": "NASA Administrator",
+      "image": {
+        "ribbon": "/images/ribbons/P86_NASA-DSM_NASA_Distinguished_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Highest NASA honor, awarded for distinguished service, ability, or vision that has personally contributed to NASA's advancement of United States interests. Marines (typically astronauts) may wear only with CMC documented permission.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Requires CMC concurrence per SECNAV M-1650.1 \u00a75.5.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.7.a.(5), line 7262"
+      }
+    },
+    {
+      "id": "nasa_fm",
+      "precedence": 87,
+      "category": "nonmilitary_personal",
+      "name": "NASA Flight Medal",
+      "shortName": "NASA-FM",
+      "marineApplicable": true,
+      "issuingAuthority": "NASA Administrator",
+      "image": {
+        "ribbon": "/images/ribbons/P87_NASA-FM_NASA_Flight_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by NASA for actual flight achievement, including notable flights of significance to NASA programs. Marines (typically astronauts) may wear only with CMC documented permission.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Requires CMC concurrence per SECNAV M-1650.1 \u00a75.5.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.7.a.(6), line 7265"
+      }
+    },
+    {
+      "id": "nasa_meb",
+      "precedence": 88,
+      "category": "nonmilitary_personal",
+      "name": "NASA Medal for Exceptional Bravery",
+      "shortName": "NASA-MEB",
+      "marineApplicable": true,
+      "issuingAuthority": "NASA Administrator",
+      "image": {
+        "ribbon": "/images/ribbons/P88_NASA-MEB_NASA_Medal_for_Exceptional_Bravery.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by NASA for exemplary and courageous handling of an emergency by an individual who, independent of personal danger, has acted to prevent the loss of human life or government property. Marines may wear only with CMC documented permission.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Requires CMC concurrence per SECNAV M-1650.1 \u00a75.5.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.7.a.(7), line 7273"
+      }
+    },
+    {
+      "id": "csmoh",
+      "precedence": 89,
+      "category": "nonmilitary_personal",
+      "name": "Congressional Space Medal of Honor",
+      "shortName": "CSMoH",
+      "marineApplicable": true,
+      "issuingAuthority": "President of the United States",
+      "image": {
+        "ribbon": "/images/ribbons/P89_CSMoH_Congressional_Space_Medal_of_Honor.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded by the President in the name of Congress to any astronaut who, in the performance of his or her duties, has distinguished himself or herself by exceptionally meritorious efforts and contributions to the welfare of the Nation and mankind. Marines may wear only with CMC documented permission.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Requires CMC concurrence per SECNAV M-1650.1 \u00a75.5.",
+      "citations": {
+        "precedence": "MCO 1020.34H \u00a75102.7.a.(8), line 7276"
+      }
+    },
+    {
+      "id": "mm_msm",
+      "precedence": 90,
+      "category": "nonmilitary_service",
+      "name": "Merchant Marine Meritorious Service Medal",
+      "shortName": "MMSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of Transportation",
+      "image": {
+        "ribbon": "/images/ribbons/P90_MMSM_Merchant_Marine_Meritorious_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Merchant Marine personnel for meritorious service.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Merchant Marine awards may be worn by Marines who served in merchant marine capacity.",
+      "citations": {
+        "precedence": "MCO 1020.34H"
+      }
+    },
+    {
+      "id": "mm_dsm",
+      "precedence": 91,
+      "category": "nonmilitary_service",
+      "name": "Merchant Marine Distinguished Service Medal",
+      "shortName": "MMDSM",
+      "marineApplicable": true,
+      "issuingAuthority": "Secretary of Transportation",
+      "image": {
+        "ribbon": "/images/ribbons/P91_MMDSM_Merchant_Marine_Distinguished_Service_Medal.png",
+        "fileExists": true
+      },
+      "criteriaSummary": "Awarded to Merchant Marine personnel for distinguished service.",
+      "devices": {
+        "authorized": [],
+        "subsequentAwardMarker": "none"
+      },
+      "wearNotes": "Merchant Marine awards may be worn by Marines who served in merchant marine capacity.",
+      "citations": {
+        "precedence": "MCO 1020.34H"
+      }
+    }
+  ],
+  "deficiencies": [
+    {
+      "type": "missing_image",
+      "awardId": "moh",
+      "description": "Medal of Honor ribbon image not present in images/ribbons/",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nmcm",
+      "description": "Navy and Marine Corps Medal ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "purple_heart",
+      "description": "Purple Heart Medal ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "air_medal",
+      "description": "Air Medal ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "car",
+      "description": "Combat Action Ribbon image not present. Critical for Marines.",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "puc",
+      "description": "Presidential Unit Citation ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "jmua",
+      "description": "Joint Meritorious Unit Award ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nuc",
+      "description": "Navy Unit Commendation ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "muc",
+      "description": "Meritorious Unit Commendation ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "ner",
+      "description": "Navy 'E' Ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "eamec",
+      "description": "European-African-Middle Eastern Campaign Medal ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "afem",
+      "description": "Armed Forces Expeditionary Medal ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "acm",
+      "description": "Afghanistan Campaign Medal ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "icm",
+      "description": "Iraq Campaign Medal ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "ssdr",
+      "description": "Sea Service Deployment Ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nasr",
+      "description": "Navy Arctic Service Ribbon image not present (Coast Guard variant 048 is not the Navy version)",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "osr",
+      "description": "Navy and Marine Corps Overseas Service Ribbon image not present",
+      "blocksRelease": true
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mcrr",
+      "description": "Marine Corps Recruiting Ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mcdir",
+      "description": "Marine Corps Drill Instructor Ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mcsgr",
+      "description": "Marine Security Guard Ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mcrr_legacy",
+      "description": "Marine Corps Reserve Ribbon (legacy) image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "phil_puc",
+      "description": "Philippine Presidential Unit Citation ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "korean_puc",
+      "description": "Korean Presidential Unit Citation ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "vn_puc",
+      "description": "Vietnam Presidential Unit Citation ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mfo",
+      "description": "Multinational Force and Observers Medal ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "klm",
+      "description": "Kuwait Liberation Medal (consolidated entry) ribbon image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "rifle_qual",
+      "description": "Rifle Qualification Badge image not present (badge, not ribbon)",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "pistol_qual",
+      "description": "Pistol Qualification Badge image not present (badge, not ribbon)",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "pmof",
+      "description": "Presidential Medal of Freedom image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nsm",
+      "description": "National Security Medal image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nidsm",
+      "description": "National Intelligence Distinguished Service Medal image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nima",
+      "description": "National Intelligence Medal of Achievement image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nasa_dsm",
+      "description": "NASA Distinguished Service Medal image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nasa_fm",
+      "description": "NASA Flight Medal image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "nasa_meb",
+      "description": "NASA Medal for Exceptional Bravery image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "csmoh",
+      "description": "Congressional Space Medal of Honor image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mm_gsuc",
+      "description": "Merchant Marine Gallant Ship Unit Citation image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mm_db",
+      "description": "Merchant Marine Defense Bar image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mm_cb",
+      "description": "Merchant Marine Combat Bar image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mm_wzb",
+      "description": "Merchant Marine War Zone Bars image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mm_wwii",
+      "description": "Merchant Marine World War II Victory Medal image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mm_korea",
+      "description": "Merchant Marine Korean Service Bar image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "missing_image",
+      "awardId": "mm_vn",
+      "description": "Merchant Marine Vietnam Service Bar image not present",
+      "blocksRelease": false
+    },
+    {
+      "type": "criteria_gap",
+      "awardId": "ddsm",
+      "description": "DDSM detailed criteria reference DoDM 1348.33-V3 which is not part of provided source documents; entry uses summary text only.",
+      "blocksRelease": false
+    },
+    {
+      "type": "criteria_gap",
+      "awardId": "dssm",
+      "description": "DSSM detailed criteria are governed by DoD policy; entry uses summary text only.",
+      "blocksRelease": false
+    },
+    {
+      "type": "criteria_gap",
+      "awardId": "klm",
+      "description": "MCO 1020.34H \u00a75102.13.b lists 'Kuwait Liberation Medal' as a precedence position distinct from KLM-SA and KLM-KW. The source does not clarify which specific issue this position references; entry preserves position pending Marine awards branch clarification.",
+      "blocksRelease": false
+    },
+    {
+      "type": "precedence_ambiguity",
+      "awardId": "phil_puc",
+      "description": "MCO 1020.34H \u00a75102.10 prohibits wearing foreign personal decorations except in narrowly defined ceremonial circumstances; foreign unit awards are positioned after these but the precedence list at \u00a75102.10 contains no enumerated entries. Foreign unit awards entries 61-65 begin at \u00a75102.11.",
+      "blocksRelease": false
+    }
+  ]
+}
